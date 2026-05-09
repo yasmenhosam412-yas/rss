@@ -69,6 +69,15 @@
       <guid>https://example.com/post-8</guid>
     </item>
 
+
+            <item>
+      <title>9 Post Title</title>
+      <link>https://example.com/post-9</link>
+      <description>This is the description of the 9 post.</description>
+      <pubDate>Sat, 14 May 2026 10:00:00 GMT</pubDate>
+      <guid>https://example.com/post-9</guid>
+    </item>
+
     
   </channel>
 </rss>
