@@ -36,5 +36,16 @@
       <guid>https://example.com/post-3</guid>
     </item>
 
+    
+      <item>
+      <title>Fourth Post Title</title>
+      <link>https://example.com/post-4</link>
+      <description>
+        This is the description of the 4 post.
+      </description>
+      <pubDate>Thu, 04 May 2026 10:00:00 GMT</pubDate>
+      <guid>https://example.com/post-4</guid>
+    </item>
+
   </channel>
 </rss>
