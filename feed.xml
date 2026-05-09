@@ -53,6 +53,14 @@
       <pubDate>Sat, 02 May 2026 10:00:00 GMT</pubDate>
       <guid>https://example.com/post-6</guid>
     </item>
+    <item>
+      <title>7 Post Title</title>
+      <link>https://example.com/post-7</link>
+      <description>This is the description of the 7 post.</description>
+      <pubDate>Sat, 01 May 2026 10:00:00 GMT</pubDate>
+      <guid>https://example.com/post-7</guid>
+    </item>
 
+    
   </channel>
 </rss>
