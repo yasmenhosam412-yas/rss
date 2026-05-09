@@ -9,63 +9,49 @@
     <item>
       <title>First Post Title</title>
       <link>https://example.com/post-1</link>
-      <description>
-        This is the description of the first post.
-      </description>
-      <pubDate>Fri, 09 May 2026 12:00:00 GMT</pubDate>
+      <description>This is the description of the first post.</description>
+      <pubDate>Sat, 09 May 2026 12:00:00 GMT</pubDate>
       <guid>https://example.com/post-1</guid>
     </item>
 
     <item>
       <title>Second Post Title</title>
       <link>https://example.com/post-2</link>
-      <description>
-        This is the description of the second post.
-      </description>
-      <pubDate>Thu, 08 May 2026 10:00:00 GMT</pubDate>
+      <description>This is the description of the second post.</description>
+      <pubDate>Fri, 08 May 2026 10:00:00 GMT</pubDate>
       <guid>https://example.com/post-2</guid>
     </item>
 
-      <item>
+    <item>
       <title>Third Post Title</title>
       <link>https://example.com/post-3</link>
-      <description>
-        This is the description of the third post.
-      </description>
+      <description>This is the description of the third post.</description>
       <pubDate>Thu, 07 May 2026 10:00:00 GMT</pubDate>
       <guid>https://example.com/post-3</guid>
     </item>
 
-    
-      <item>
+    <item>
       <title>Fourth Post Title</title>
       <link>https://example.com/post-4</link>
-      <description>
-        This is the description of the 4 post.
-      </description>
-      <pubDate>Thu, 04 May 2026 10:00:00 GMT</pubDate>
+      <description>This is the description of the fourth post.</description>
+      <pubDate>Mon, 04 May 2026 10:00:00 GMT</pubDate>
       <guid>https://example.com/post-4</guid>
     </item>
 
-         <item>
-      <title>5 Post Title</title>
+    <item>
+      <title>Fifth Post Title</title>
       <link>https://example.com/post-5</link>
-      <description>
-        This is the description of the 5 post.
-      </description>
-      <pubDate>Thu, 03 May 2026 10:00:00 GMT</pubDate>
+      <description>This is the description of the fifth post.</description>
+      <pubDate>Sun, 03 May 2026 10:00:00 GMT</pubDate>
       <guid>https://example.com/post-5</guid>
     </item>
 
-
-     <item>
-      <title>6 Post Title</title>
-      <link>https://example.com/post-5</link>
-      <description>
-        This is the description of the 5 post.
-      </description>
-      <pubDate>Thu, 03 May 2026 10:00:00 GMT</pubDate>
-      <guid>https://example.com/post-</guid>
+    <item>
+      <title>Sixth Post Title</title>
+      <link>https://example.com/post-6</link>
+      <description>This is the description of the sixth post.</description>
+      <pubDate>Sat, 02 May 2026 10:00:00 GMT</pubDate>
+      <guid>https://example.com/post-6</guid>
     </item>
 
   </channel>
