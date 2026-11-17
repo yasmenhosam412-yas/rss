@@ -18,7 +18,7 @@
     <link>https://YOUR_USER.github.io/YOUR_REPO/</link>
     <description>Example podcast RSS feed for testing Rawi publish / listen via GitHub.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 18:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 18:55:00 GMT</lastBuildDate>
     <atom:link href="https://YOUR_USER.github.io/YOUR_REPO/feed.xml" rel="self" type="application/rss+xml"/>
 
     <itunes:author>Rawi Demo</itunes:author>
@@ -37,6 +37,21 @@
     </image>
 
     <item>
+      <title>Episode 4 — On the feed</title>
+      <description>Newest sample episode for Following rail + episodes sheet.</description>
+      <content:encoded><![CDATA[<p>Fourth sample episode — test New from Following and the episodes sheet.</p>]]></content:encoded>
+      <pubDate>Tue, 17 Nov 2026 18:55:00 GMT</pubDate>
+      <guid isPermaLink="false">rawi-sample-ep-004</guid>
+      <enclosure
+        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+        length="9300000"
+        type="audio/mpeg"/>
+      <itunes:duration>6:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://picsum.photos/seed/rawi-ep4/1400/1400"/>
+    </item>
+
+    <item>
       <title>Episode 3 — Fresh drop</title>
       <description>Newest sample episode for testing Following + push notifications.</description>
       <content:encoded><![CDATA[<p>Third sample episode — use this to test new-from-following and follower push.</p>]]></content:encoded>
@@ -49,21 +64,6 @@
       <itunes:duration>5:48</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://picsum.photos/seed/rawi-ep3/1400/1400"/>
-    </item>
-
-    <item>
-      <title>Episode 1 — Welcome</title>
-      <description>First sample episode. Audio is a public demo MP3.</description>
-      <content:encoded><![CDATA[<p>First sample episode for Rawi RSS testing.</p>]]></content:encoded>
-      <pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">rawi-sample-ep-001</guid>
-      <enclosure
-        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-        length="8900000"
-        type="audio/mpeg"/>
-      <itunes:duration>6:12</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://picsum.photos/seed/rawi-ep1/1400/1400"/>
     </item>
 
     <item>
@@ -81,19 +81,19 @@
       <itunes:image href="https://picsum.photos/seed/rawi-ep2/1400/1400"/>
     </item>
 
-        <item>
-      <title>Episode 4 — Keep going</title>
-      <description>Second sample episode with another public demo track.</description>
-      <content:encoded><![CDATA[<p>Second sample episode for Rawi RSS testing.</p>]]></content:encoded>
-      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
-      <guid isPermaLink="false">rawi-sample-ep-002</guid>
+    <item>
+      <title>Episode 1 — Welcome</title>
+      <description>First sample episode. Audio is a public demo MP3.</description>
+      <content:encoded><![CDATA[<p>First sample episode for Rawi RSS testing.</p>]]></content:encoded>
+      <pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">rawi-sample-ep-001</guid>
       <enclosure
-        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-        length="9100000"
+        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        length="8900000"
         type="audio/mpeg"/>
-      <itunes:duration>7:05</itunes:duration>
+      <itunes:duration>6:12</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://picsum.photos/seed/rawi-ep2/1400/1400"/>
+      <itunes:image href="https://picsum.photos/seed/rawi-ep1/1400/1400"/>
     </item>
   </channel>
 </rss>
