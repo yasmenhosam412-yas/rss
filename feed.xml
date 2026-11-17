@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!--
+      Deploy on GitHub:
+      1) Push this file to a public repo (e.g. your-user/rawi-rss/feed.xml)
+      2) Prefer GitHub Pages: Settings → Pages → Deploy from branch → / (root)
+         Feed URL: https://YOUR_USER.github.io/YOUR_REPO/feed.xml
+      3) Or use raw URL (works for most parsers):
+         https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/feed.xml
+      4) Paste that URL into Rawi as an RSS link.
+      Replace enclosure URLs / cover art with your own files when ready.
+    -->
+    <title>Rawi Sample Show</title>
+    <link>https://YOUR_USER.github.io/YOUR_REPO/</link>
+    <description>Example podcast RSS feed for testing Rawi publish / listen via GitHub.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://YOUR_USER.github.io/YOUR_REPO/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <itunes:author>Rawi Demo</itunes:author>
+    <itunes:summary>Short sample feed with two public demo episodes.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Rawi Demo</itunes:name>
+      <itunes:email>demo@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://picsum.photos/seed/rawi-sample/1400/1400"/>
+    <image>
+      <url>https://picsum.photos/seed/rawi-sample/1400/1400</url>
+      <title>Rawi Sample Show</title>
+      <link>https://YOUR_USER.github.io/YOUR_REPO/</link>
+    </image>
+
+    <item>
+      <title>Episode 1 — Welcome</title>
+      <description>First sample episode. Audio is a public demo MP3.</description>
+      <content:encoded><![CDATA[<p>First sample episode for Rawi RSS testing.</p>]]></content:encoded>
+      <pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">rawi-sample-ep-001</guid>
+      <enclosure
+        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        length="8900000"
+        type="audio/mpeg"/>
+      <itunes:duration>6:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://picsum.photos/seed/rawi-ep1/1400/1400"/>
+    </item>
+
+    <item>
+      <title>Episode 2 — Keep going</title>
+      <description>Second sample episode with another public demo track.</description>
+      <content:encoded><![CDATA[<p>Second sample episode for Rawi RSS testing.</p>]]></content:encoded>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">rawi-sample-ep-002</guid>
+      <enclosure
+        url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+        length="9100000"
+        type="audio/mpeg"/>
+      <itunes:duration>7:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://picsum.photos/seed/rawi-ep2/1400/1400"/>
+    </item>
+  </channel>
+</rss>
