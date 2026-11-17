@@ -1,19 +1,56 @@
 
-<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Deli Box - RSS Feed</title>
+    <title>Deli Box - Releases & Updates</title>
     <link>https://github.com/Mariem-Mohamed9/deli_box</link>
-    <description>Latest updates and releases for Deli Box</description>
+    <description>
+      Latest releases, new features, improvements, and updates
+      for the Deli Box project.
+    </description>
     <language>en-us</language>
+    <copyright>Copyright 2026 Deli Box</copyright>
+    <managingEditor>yasmenhosam412-yas</managingEditor>
+    <webMaster>yasmenhosam412-yas</webMaster>
+    <generator>GitHub Pages RSS Feed</generator>
+
+    <image>
+      <url>https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png</url>
+      <title>Deli Box</title>
+      <link>https://github.com/Mariem-Mohamed9/deli_box</link>
+    </image>
+
+    <item>
+      <title>Deli Box - Project Updates</title>
+      <link>https://github.com/Mariem-Mohamed9/deli_box</link>
+      <guid isPermaLink="true">https://github.com/Mariem-Mohamed9/deli_box</guid>
+      <description>
+        Welcome to Deli Box! Follow our GitHub repository
+        for project updates, new features, bug fixes,
+        and future releases.
+      </description>
+      <category>Software</category>
+    </item>
 
     <item>
       <title>Deli Box - Latest Releases</title>
       <link>https://github.com/Mariem-Mohamed9/deli_box/releases</link>
-      <guid>https://github.com/Mariem-Mohamed9/deli_box/releases</guid>
+      <guid isPermaLink="true">https://github.com/Mariem-Mohamed9/deli_box/releases</guid>
       <description>
-        Follow the latest Deli Box releases and updates.
+        Discover the latest Deli Box versions, release notes,
+        improvements, and updates.
       </description>
+      <category>Releases</category>
+    </item>
+
+    <item>
+      <title>Deli Box - Source Code</title>
+      <link>https://github.com/Mariem-Mohamed9/deli_box</link>
+      <guid>https://github.com/Mariem-Mohamed9/deli_box#source</guid>
+      <description>
+        Explore the Deli Box source code and follow development
+        progress on GitHub.
+      </description>
+      <category>Development</category>
     </item>
 
   </channel>
