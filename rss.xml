@@ -2,24 +2,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Deli Box - GitHub Releases</title>
+    <title>Deli Box - RSS Feed</title>
     <link>https://github.com/Mariem-Mohamed9/deli_box</link>
-    <description>
-      Official release updates and version announcements
-      for the Deli Box project.
-    </description>
+    <description>Latest updates and releases for Deli Box</description>
     <language>en-us</language>
-    <generator>GitHub Releases RSS</generator>
 
     <item>
-      <title>Deli Box - GitHub Releases</title>
+      <title>Deli Box - Latest Releases</title>
       <link>https://github.com/Mariem-Mohamed9/deli_box/releases</link>
-      <guid isPermaLink="true">
-        https://github.com/Mariem-Mohamed9/deli_box/releases
-      </guid>
+      <guid>https://github.com/Mariem-Mohamed9/deli_box/releases</guid>
       <description>
-        Visit the official releases page to see the latest
-        Deli Box versions, release notes, and updates.
+        Follow the latest Deli Box releases and updates.
       </description>
     </item>
 
