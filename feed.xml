@@ -70,7 +70,7 @@
       <title>Episode 3 — Keep going</title>
       <description>Second sample episode with another public demo track.</description>
       <content:encoded><![CDATA[<p>Second sample episode for Rawi RSS testing.</p>]]></content:encoded>
-      <pubDate>Tue, 18 Nov 2026 10:00:00 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">rawi-sample-ep-002</guid>
       <enclosure
         url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
